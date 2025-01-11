@@ -1,5 +1,4 @@
 import { FC, useRef } from "react";
-
 import {
     Box,
     Button,
@@ -16,7 +15,6 @@ import {
     VStack,
     useColorModeValue,
 } from "@chakra-ui/react";
-
 import { ColorModeButton } from "shared/color-mode-button/ColorModeButton";
 import { AboutPageId, WorkPageId } from "utils/useScroll";
 import { MenuIcon } from "utils/Icons";

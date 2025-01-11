@@ -7,13 +7,13 @@
     "mainPicture": "/assets/landing/image-me.webp",
     "mainPictureJPG": "/assets/landing/image-me.jpeg",
     "cssVarPrefix": "mk",
-    "email": "kazim.maria@outlook.de",
-    "linkedin": "https://www.linkedin.com/in/hrishikeshpaul/",
+    "email": "dev.aurora3@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/maria-k-5b84aa329",
     "github": "https://github.com/auroOra3",
     "socials": [
         {
             "type": "linkedin",
-            "link": "https://www.linkedin.com/in/hrishikeshpaul/"
+            "link": "https://www.linkedin.com/in/maria-k-5b84aa329"
         },
         {
             "type": "github",
@@ -21,7 +21,7 @@
         },
         {
             "type": "mail",
-            "link": "mailto:hrishikeshpaul12@gmail.com"
+            "link": "mailto:dev.aurora3@gmail.com"
         }
     ]
 }

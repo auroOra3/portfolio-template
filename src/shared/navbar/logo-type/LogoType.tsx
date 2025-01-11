@@ -1,5 +1,4 @@
 import { FC } from "react";
-
 import { Box, Text, useBreakpointValue } from "@chakra-ui/react";
 
 interface Props {

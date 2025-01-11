@@ -1,7 +1,5 @@
 import { FC } from "react";
-
-import { Button, HStack, IconButton, Tooltip } from "@chakra-ui/react";
-
+import { Button, HStack, IconButton, Tooltip, Link } from "@chakra-ui/react";
 import { configs } from "shared/content/Content";
 import { FacebookIcon, GitHubIcon, InstagramIcon, LinkedInIcon, MailIcon, YoutubeIcon } from "utils/Icons";
 
@@ -26,17 +24,20 @@ export const Socials: FC<Props> = ({ resume = true, exclude, delay = 800 }) => {
             {configs.common.socials.map((social, idx) =>
                 !exclude?.includes(social.type) && (
                     <Tooltip key={social.type} label={social.type} textTransform="capitalize">
-                        <Button
-                            p="0"
-                            aria-label={`${social.type}-button`}
-                            as={IconButton}
-                            variant="icon"
-                            data-aos="fade"
-                            data-aos-delay={idx * 100 + delay}
-                            fontSize={social.type === "mail" ? "24pt" : "20pt"}
-                            icon={LinksToIconMapper[social.type]}
-                            onClick={() => open(social.link)}
-                        />
+                    <Button
+                        p="0"
+                        aria-label={`${social.type}-button`}
+                        as={IconButton}
+                        variant="icon"
+                        data-aos="fade"
+                        data-aos-delay={idx * 100 + delay}
+                        fontSize={social.type === "mail" ? "24pt" : "20pt"}
+                        icon={LinksToIconMapper[social.type]}
+                    >
+                        <Link href={social.link} isExternal>
+                            {LinksToIconMapper[social.type]}
+                        </Link>
+                    </Button>
                     </Tooltip>
                 )
             )}

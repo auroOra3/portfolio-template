@@ -1,13 +1,10 @@
 import { FC, useEffect, useState } from "react";
-
 import { Text, Stack, StyleProps, Link, UnorderedList } from "@chakra-ui/react";
 import ReactMarkdown from "react-markdown";
-
 import common from "content/common/common.json";
 import landing from "content/landing/landing-config.json";
 import featuredProjects from "content/featured-projects/featured-projects-config.json";
 import about from "content/about/about-config.json";
-
 import LandingMd from "content/landing/landing.md";
 import AboutMd from "content/about/about.md";
 
@@ -51,7 +48,7 @@ interface Props extends StyleProps {
 
 export const Content: FC<Props> = ({ children, ...rest }) => {
     return (
-        <Stack spacing="4">
+        <Stack spacing="5">
             <ReactMarkdown
                 components={{
                     p: ({ node, ...props }) => <Text {...rest} {...props} />,

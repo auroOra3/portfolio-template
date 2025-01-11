@@ -1,11 +1,8 @@
 import { FC, useEffect, lazy, Suspense } from "react";
-
 import { Box, Container, Center, Spinner } from "@chakra-ui/react";
 import AOS from "aos";
-
 import { NavbarHeight } from "theme";
 import { AboutPageId, WorkPageId } from "utils/useScroll";
-
 import "./App.scss";
 import "aos/dist/aos.css";
 

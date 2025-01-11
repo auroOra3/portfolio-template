@@ -1,5 +1,4 @@
 import { FC } from "react";
-
 import { Heading, StyleProps, Text } from "@chakra-ui/react";
 
 interface Props extends StyleProps {

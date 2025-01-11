@@ -1,7 +1,5 @@
 import { FC } from "react";
-
 import { Box, Heading, Flex, Text } from "@chakra-ui/react";
-
 import { configs } from "shared/content/Content";
 import { PageHeader } from "shared/page-header/PageHeader";
 import { onMailTo } from "utils/Functions";
@@ -39,8 +37,6 @@ export const Footer: FC = () => {
                 justifyContent={{ base: "center", md: "space-between" }}
                 direction={{ base: "column", md: "row" }}
             >
-                <Text>This site is hand-crafted, with care by me.</Text>
-                <Text>&copy; {new Date().getFullYear()} All rights reserved.</Text>
             </Flex>
         </>
     );

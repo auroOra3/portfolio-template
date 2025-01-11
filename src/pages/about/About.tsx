@@ -1,7 +1,5 @@
 import { FC } from "react";
-
 import { Box, Flex, Heading, Image } from "@chakra-ui/react";
-
 import { configs, Content, MarkdownFile, useContent } from "shared/content/Content";
 import { Skills } from "pages/about/skills/Skills";
 

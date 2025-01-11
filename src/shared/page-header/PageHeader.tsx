@@ -1,5 +1,4 @@
 import { FC } from "react";
-
 import { Box, Text } from "@chakra-ui/react";
 
 interface Props {

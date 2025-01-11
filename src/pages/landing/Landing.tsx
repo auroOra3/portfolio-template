@@ -1,7 +1,5 @@
 import { FC } from "react";
-
 import { Center, Container, Heading, Image, HStack, Stack, Flex, Box, IconButton, Button } from "@chakra-ui/react";
-
 import { Content, configs, useContent, MarkdownFile } from "shared/content/Content";
 import { Socials } from "shared/socials/Socials";
 import { WorkPageId } from "utils/useScroll";
@@ -32,7 +30,7 @@ export const Landing: FC = () => {
                             >
                                 {configs.landing.headline}
                             </Heading>
-                            <Content data-aos="fade-up" data-aos-delay="500" fontSize="lg">
+                            <Content data-aos="fade-up" data-aos-delay="500" fontSize="xl">
                                 {content.landing}
                             </Content>
                         </Stack>

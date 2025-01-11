@@ -1,7 +1,5 @@
 import { FC } from "react";
-
 import { Box } from "@chakra-ui/react";
-
 import { configs } from "shared/content/Content";
 import { Tags } from "shared/tags/Tags";
 import { ArticleTitle, SectionTitle } from "../common/title/Title";
