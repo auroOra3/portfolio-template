@@ -5,7 +5,7 @@
         "demo": "",
         "github": "",
         "tags": ["Flutter", "Dart", "Supabase", "Firebase", "Amplify", "OpenStreetMap", "Gitlab CI/CD", "Flutter Test"],
-        "description": "As part of my bachelor thesis, I developed a Flutter app enabling local retailers to sell their products online, bridging the gap between traditional and digital commerce. Von hier für dich explores the use of Backend-as-a-Service (BaaS) and cloud technologies to fast-track app development. Work in progress.",
+        "description": "As part of my bachelor thesis, I developed a Flutter app enabling local retailers to sell their products online, bridging the gap between traditional and digital commerce. Von hier für dich explores the use of Backend-as-a-Service (BaaS) and cloud technologies to fast-track app development.",
         "image": "/assets/featured-projects/von-hier-fuer-dich.png",
         "jpg": "/assets/featured-projects/von-hier-fuer-dich.png"
     },
@@ -14,7 +14,7 @@
         "title": "Cargonaut",
         "demo": "",
         "github": "",
-        "tags": ["NextJS", "React", "TypeScript", "Bootstrap 5", "Gitlab CI/CD", "Cypress E2E", "OpenStreetMap", "Socket.IO"],
+        "tags": ["NextJS", "React", "TypeScript", "Bootstrap 5", "Gitlab CI/CD", "Cypress E2E", "OpenStreetMap", "REST API", "Socket.IO"],
         "description": "Cargonaut is a platform for booking and offering rideshares and freight shipping services. I developed the frontend using Next.js and React, creating a user-friendly and responsive interface. The platform also includes a chat function to facilitate seamless communication between users.",
         "image": "/assets/featured-projects/cargonaut.png",
         "jpg": "/assets/featured-projects/cargonaut.png"
@@ -39,9 +39,9 @@
     {
         "id": "featured-project-cards-trainer",
         "title": "Cards Trainer",
-        "tags": ["Java", "Spring Boot", "Angular", "TypeScript", "Bootstrap 5", "Gitlab CI/CD", "i18n", "Cypress E2E"],
+        "tags": ["Java", "Spring Boot", "Angular", "TypeScript", "Bootstrap 5", "Gitlab CI/CD", "i18n", "REST API", "Cypress E2E"],
         "demo": "",
-        "github": "",
+        "github": "https://github.com/EikeMenzel/card-trainer",
         "description": "Cards Trainer is an interactive online flashcard tool that makes learning fun with achievements to keep you motivated. I contributed to both the Angular frontend and the Java Spring Boot backend, leveraging a microservice architecture and a PostgreSQL database for a scalable and efficient platform.",
         "image": "/assets/featured-projects/card-trainer.png",
         "jpg": "/assets/featured-projects/card-trainer.png"
@@ -52,7 +52,7 @@
         "tags": ["HTML", "CSS", "JavaScript"],
         "demo": "",
         "github": "https://github.com/auroOra3/hellofriend-portfolio",
-        "description": "Cards Trainer is an interactive online flashcard tool that makes learning fun with achievements to keep you motivated. I contributed to both the Angular frontend and the Java Spring Boot backend, leveraging a microservice architecture and a PostgreSQL database for a scalable and efficient platform.",
+        "description": "Hello, friend!-Portfolio is a playful and interactive portfolio! This project is built using simple HTML, CSS, and JavaScript, and it features a unique design that allows users to switch between light and dark modes with a single click. The centerpiece of the portfolio is an animated cat that changes its behavior depending on the mode—sleeping during the day and waking up at night.",
         "image": "/assets/featured-projects/portfolio.png",
         "jpg": "/assets/featured-projects/portfolio.png"
     }

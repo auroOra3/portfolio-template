@@ -2,6 +2,7 @@ import { FC } from "react";
 
 import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import { Tags } from "shared/tags/Tags";
+import { ProjectCardFooter } from "./ProjectCardFooter";
 
 export enum ImagePosition {
     Right,
@@ -10,7 +11,6 @@ export enum ImagePosition {
 interface Props {
     id: string;
     title: string;
-    demo?: string;
     github?: string;
     tags: string[];
     description: string;
@@ -37,7 +37,6 @@ const ImagePositionPaddingLeftMapper: { [key in ImagePosition]: string } = {
 export const FeaturedProjectCard: FC<Props> = ({
     id,
     title,
-    demo,
     github,
     tags,
     description,
@@ -93,6 +92,8 @@ export const FeaturedProjectCard: FC<Props> = ({
 
                     <Tags tags={tags} id={id} />
                 </Box>
+
+                <ProjectCardFooter github={github} />
             </Flex>
 
             <Box

@@ -1,10 +1,9 @@
 import { FC } from "react";
 
-import { Box, Flex, Heading, Text, Image, Button, IconButton } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image } from "@chakra-ui/react";
 
 import { configs, Content, MarkdownFile, useContent } from "shared/content/Content";
 import { Skills } from "pages/about/skills/Skills";
-import { VolumeIcon } from "utils/Icons";
 
 export const About: FC = () => {
     const content = useContent(MarkdownFile.About);

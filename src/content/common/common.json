@@ -4,8 +4,8 @@
         "mobile": "MK",
         "desktop": "Maria Kazim"
     },
-    "mainPicture": "/assets/HP.webp",
-    "mainPictureJPG": "/assets/HP.jpeg",
+    "mainPicture": "/assets/landing/image-me.webp",
+    "mainPictureJPG": "/assets/landing/image-me.jpeg",
     "cssVarPrefix": "mk",
     "email": "kazim.maria@outlook.de",
     "linkedin": "https://www.linkedin.com/in/hrishikeshpaul/",

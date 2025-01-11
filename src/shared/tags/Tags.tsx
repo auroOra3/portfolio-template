@@ -6,13 +6,12 @@ interface Props {
     id: string;
     tags: Array<string>;
     size?: string;
-    delay?: number;
 }
 
 export const Tags: FC<Props> = ({ id, tags, size = "sm" }) => {
     return (
         <Flex py="2" wrap="wrap" gap="2">
-            {tags.map((tag, idx) => (
+            {tags.map((tag: string, idx: number) => (
                 <Box data-aos="flip-left" data-aos-delay={idx * 50} key={`${id}-tag-${tag}`}>
                     <Badge
                         transition="0.2s ease-in-out"
