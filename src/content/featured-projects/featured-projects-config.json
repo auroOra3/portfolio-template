@@ -1,64 +1,59 @@
 [
     {
-        "id": "featured-project-trackcta",
-        "title": "trackCTA",
-        "year": "Dec 2021 - Present",
-        "location": "Chicago",
-        "demo": "https://www.trackcta.com/",
-        "github": "https://github.com/hrishikeshpaul/trackcta",
-        "tags": ["React", "TypeScript", "NodeJS", "Web Sockets", "i18n", "Google Maps", "GCP", "CI/CD", "Shell"],
-        "description": "An internationalized web app to track and predict Chicago Transit Authority (CTA) busses and trains.",
-        "image": "/assets/featured-projects/trackcta.webp",
-        "jpg": "/assets/featured-projects/trackcta.jpeg"
+        "id": "featured-project-von-hier-fuer-dich",
+        "title": "Von hier für dich",
+        "demo": "",
+        "github": "",
+        "tags": ["Flutter", "Dart", "Supabase", "Firebase", "Amplify", "OpenStreetMap", "Gitlab CI/CD", "Flutter Test"],
+        "description": "As part of my bachelor thesis, I developed a Flutter app enabling local retailers to sell their products online, bridging the gap between traditional and digital commerce. Von hier für dich explores the use of Backend-as-a-Service (BaaS) and cloud technologies to fast-track app development. Work in progress.",
+        "image": "/assets/featured-projects/von-hier-fuer-dich.png",
+        "jpg": "/assets/featured-projects/von-hier-fuer-dich.png"
     },
     {
-        "id": "featured-project-asctb-reporter",
-        "title": "ASCT+B Reporter",
-        "year": "Jun 2020 - Jun 2021",
-        "location": "Indiana University",
-        "demo": "https://hubmapconsortium.github.io/ccf-asct-reporter/",
-        "github": "https://github.com/hrishikeshpaul/ccf-asct-reporter",
-        "tags": ["Angular 11", "TypeScript", "NodeJS", "NGXS", "Vega", "TravisCI", "Open Source"],
-        "description": "A collaboration with the NIH to build visualization tool to envision large biomedical datasets for researchers, doctors and experts.",
-        "readMore": "https://hrishikeshpaul.medium.com/asct-b-reporter-a-visualization-tool-d4dd29de97d8",
-        "image": "/assets/featured-projects/asctb.webp",
-        "jpg": "/assets/featured-projects/asctb.jpeg"
+        "id": "featured-project-cargonat", 
+        "title": "Cargonaut",
+        "demo": "",
+        "github": "",
+        "tags": ["NextJS", "React", "TypeScript", "Bootstrap 5", "Gitlab CI/CD", "Cypress E2E", "OpenStreetMap", "Socket.IO"],
+        "description": "Cargonaut is a platform for booking and offering rideshares and freight shipping services. I developed the frontend using Next.js and React, creating a user-friendly and responsive interface. The platform also includes a chat function to facilitate seamless communication between users.",
+        "image": "/assets/featured-projects/cargonaut.png",
+        "jpg": "/assets/featured-projects/cargonaut.png"
     },
     {
-        "id": "featured-project-scrapbook",
-        "title": "Scrapbook",
-        "year": "Jan 2021 - May 2021",
-        "location": "Indiana University",
-
+        "id": "featured-project-pocketdo",
+        "title": "PocketDo",
         "tags": [
-            "Angular 11",
-            "Flask",
-            "Node",
-            "Python",
+            "React",
+            "Vite",
+            "Vitest",
             "TypeScript",
             "Docker",
-            "Docker Hub",
-            "Jenkins",
-            "Kubernetes",
-            "GKE",
-            "GCP"
+            "Gitlab CI/CD"
         ],
-        "demo": "http://34.69.102.109/",
-        "github": "https://github.com/hrishikeshpaul/scrapbook",
-        "description": "A micro-service architecture based web application that enables users to upload, share and manage images.",
-        "readMore": "https://hrishikeshpaul.medium.com/scrapbook-a-micro-service-based-photo-sharing-application-3a8760681af6",
-        "image": "/assets/featured-projects/scrapbook.webp",
-        "jpg": "/assets/featured-projects/scrapbook.jpeg"
+        "demo": "",
+        "github": "",
+        "description": "PocketDo is a fully responsive to-do app that helps you organize your tasks and navigate your day. Built using React + Vite for a fast and seamless user experience and Pocketbase as a lightweight backend solution. To be published soon",
+        "image": "/assets/featured-projects/pocketdo.png",
+        "jpg": "/assets/featured-projects/pocketdo.png"
     },
     {
-        "id": "featured-project-measure-ux",
-        "location": "Indiana University",
-        "title": "Measuring User Experience",
-        "year": "Sep 2020 - Dec 2020",
-        "tags": ["UX Research", "User Journey", "Experience Mapping", "Surveys", "Interviews", "Adobe XD"],
-        "description": "A project to quantify user experiences demonstrated by measuring the user experience of uploading a photo on Instagram.",
-        "readMore": "https://hrishikeshpaul.medium.com/measuring-user-experience-an-instagram-case-study-89bfb78f2c6b",
-        "image": "/assets/featured-projects/measure-ux.webp",
-        "jpg": "/assets/featured-projects/measure-ux.jpeg"
+        "id": "featured-project-cards-trainer",
+        "title": "Cards Trainer",
+        "tags": ["Java", "Spring Boot", "Angular", "TypeScript", "Bootstrap 5", "Gitlab CI/CD", "i18n", "Cypress E2E"],
+        "demo": "",
+        "github": "",
+        "description": "Cards Trainer is an interactive online flashcard tool that makes learning fun with achievements to keep you motivated. I contributed to both the Angular frontend and the Java Spring Boot backend, leveraging a microservice architecture and a PostgreSQL database for a scalable and efficient platform.",
+        "image": "/assets/featured-projects/card-trainer.png",
+        "jpg": "/assets/featured-projects/card-trainer.png"
+    },
+    {
+        "id": "featured-project-portfolio",
+        "title": "Hello, friend!-Portfolio",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "demo": "",
+        "github": "https://github.com/auroOra3/hellofriend-portfolio",
+        "description": "Cards Trainer is an interactive online flashcard tool that makes learning fun with achievements to keep you motivated. I contributed to both the Angular frontend and the Java Spring Boot backend, leveraging a microservice architecture and a PostgreSQL database for a scalable and efficient platform.",
+        "image": "/assets/featured-projects/portfolio.png",
+        "jpg": "/assets/featured-projects/portfolio.png"
     }
 ]

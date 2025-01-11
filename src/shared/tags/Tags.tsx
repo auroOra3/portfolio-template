@@ -11,7 +11,7 @@ interface Props {
 
 export const Tags: FC<Props> = ({ id, tags, size = "sm" }) => {
     return (
-        <Flex py="2" wrap="wrap" gap="4">
+        <Flex py="2" wrap="wrap" gap="2">
             {tags.map((tag, idx) => (
                 <Box data-aos="flip-left" data-aos-delay={idx * 50} key={`${id}-tag-${tag}`}>
                     <Badge

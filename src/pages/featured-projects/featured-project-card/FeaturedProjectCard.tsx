@@ -2,7 +2,6 @@ import { FC } from "react";
 
 import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import { Tags } from "shared/tags/Tags";
-import { ProjectCardFooter } from "shared/project-card-footer/ProjectCardFooter";
 
 export enum ImagePosition {
     Right,
@@ -11,29 +10,26 @@ export enum ImagePosition {
 interface Props {
     id: string;
     title: string;
-    year: string;
-    location: string;
     demo?: string;
     github?: string;
     tags: string[];
     description: string;
-    readMore?: string;
     image: string;
     imagePosition: ImagePosition;
     jpg: string;
 }
 
-const ImagePositionLayoutMapper: Record<ImagePosition, "row" | "row-reverse"> = {
+const ImagePositionLayoutMapper: { [key in ImagePosition]: "row" | "row-reverse" } = {
     [ImagePosition.Right]: "row",
     [ImagePosition.Left]: "row-reverse",
 };
 
-const ImagePositionPaddingRightMapper: Record<ImagePosition, string> = {
+const ImagePositionPaddingRightMapper: { [key in ImagePosition]: string } = {
     [ImagePosition.Right]: "8",
     [ImagePosition.Left]: "0",
 };
 
-const ImagePositionPaddingLeftMapper: Record<ImagePosition, string> = {
+const ImagePositionPaddingLeftMapper: { [key in ImagePosition]: string } = {
     [ImagePosition.Right]: "0",
     [ImagePosition.Left]: "8",
 };
@@ -45,24 +41,25 @@ export const FeaturedProjectCard: FC<Props> = ({
     github,
     tags,
     description,
-    readMore,
     image,
     imagePosition,
-    location,
-    year,
     jpg,
 }) => {
+    const layoutDirection = ImagePositionLayoutMapper[imagePosition];
+    const paddingRight = ImagePositionPaddingRightMapper[imagePosition];
+    const paddingLeft = ImagePositionPaddingLeftMapper[imagePosition];
+
     return (
         <Flex
             justifyContent="space-between"
             id="featured-project-card"
             py={{ base: "12", md: "12", lg: '28' }}
-            direction={{ base: "column-reverse", lg: ImagePositionLayoutMapper[imagePosition] }}
+            direction={{ base: "column-reverse", lg: layoutDirection }}
         >
             <Flex
                 h="auto"
-                pr={{ base: "0", lg: ImagePositionPaddingRightMapper[imagePosition] }}
-                pl={{ base: "0", lg: ImagePositionPaddingLeftMapper[imagePosition] }}
+                pr={{ base: "0", lg: paddingRight }}
+                pl={{ base: "0", lg: paddingLeft }}
                 direction="column"
                 justifyContent="space-between"
                 flex={{ base: 1, lg: 0.6 }}
@@ -71,17 +68,6 @@ export const FeaturedProjectCard: FC<Props> = ({
                     <Heading data-aos="fade-down" data-aos-offset="200" fontSize="4xl" lineHeight="1">
                         {title}
                     </Heading>
-                    <Text
-                        pt="2"
-                        fontSize="sm"
-                        fontWeight="600"
-                        opacity="0.6"
-                        data-aos="fade"
-                        data-aos-delay="100"
-                        data-aos-offset="200"
-                    >
-                        {year} • {location}
-                    </Text>
 
                     <Box
                         py="4"
@@ -107,8 +93,6 @@ export const FeaturedProjectCard: FC<Props> = ({
 
                     <Tags tags={tags} id={id} />
                 </Box>
-
-                <ProjectCardFooter readMore={readMore} github={github} demo={demo} />
             </Flex>
 
             <Box
@@ -116,8 +100,8 @@ export const FeaturedProjectCard: FC<Props> = ({
                 data-aos-offset="200"
                 display={{ base: "none", lg: "block" }}
                 flex={{ base: 1, lg: 0.6 }}
-                pl={{ base: "0", lg: ImagePositionPaddingRightMapper[imagePosition] }}
-                pr={{ base: "0", lg: ImagePositionPaddingLeftMapper[imagePosition] }}
+                pl={{ base: "0", lg: paddingRight }}
+                pr={{ base: "0", lg: paddingLeft }}
             >
                 <picture>
                     <source type="image/webp" srcSet={image}></source>

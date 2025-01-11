@@ -5,7 +5,6 @@ import { Box, Button, Container, Flex, HStack, useColorModeValue } from "@chakra
 import { configs } from "shared/content/Content";
 import { LogoType } from "shared/navbar/logo-type/LogoType";
 import { bgDark, bgLight } from "theme";
-import { onResumeOpen } from "utils/Functions";
 import { AboutPageId, useScroll, WorkPageId } from "utils/useScroll";
 import { MenuDrawer } from "./drawer/Drawer";
 import { ColorModeButton } from "shared/color-mode-button/ColorModeButton";
@@ -49,9 +48,6 @@ export const Navbar: FC = () => {
                                 data-aos-delay="300"
                             >
                                 About
-                            </Button>
-                            <Button variant="link" onClick={onResumeOpen} data-aos="fade" data-aos-delay="400">
-                                Resume
                             </Button>
                         </HStack>
                         <ColorModeButton />

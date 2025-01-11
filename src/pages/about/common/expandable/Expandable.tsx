@@ -39,7 +39,7 @@ export const Expandable: FC<Props> = ({ expanded, id, idx, title, subTitle, date
         <>
             <AccordionButton
                 as={Box}
-                p="0"
+                p="4"
                 disabled
                 onClick={undefined}
                 _hover={{ bg: "transparent" }}

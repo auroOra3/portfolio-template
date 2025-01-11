@@ -1,18 +1,15 @@
 {
-    "name": "Hrishikesh Paul",
+    "name": "Maria Kazim",
     "logoType": {
-        "mobile": "HP",
-        "desktop": "Hrishikesh Paul"
+        "mobile": "MK",
+        "desktop": "Maria Kazim"
     },
     "mainPicture": "/assets/HP.webp",
     "mainPictureJPG": "/assets/HP.jpeg",
-    "pronunciation": "/ri-shi-kaysh/",
-    "audioFile": "/assets/name-pro.mp3",
-    "cssVarPrefix": "hp",
-    "email": "hrishikeshpaul12@gmail.com",
+    "cssVarPrefix": "mk",
+    "email": "kazim.maria@outlook.de",
     "linkedin": "https://www.linkedin.com/in/hrishikeshpaul/",
-    "github": "https://github.com/hrishikeshpaul",
-    "resume": "https://docs.google.com/viewer?url=https://docs.google.com/document/d/1s3G7PiPHlK3Ett_W-WUU01GQnsggiLrWZB3IiMAgBEk/export?format=pdf",
+    "github": "https://github.com/auroOra3",
     "socials": [
         {
             "type": "linkedin",
@@ -20,7 +17,7 @@
         },
         {
             "type": "github",
-            "link": "https://github.com/hrishikeshpaul"
+            "link": "https://github.com/auroOra3"
         },
         {
             "type": "mail",
