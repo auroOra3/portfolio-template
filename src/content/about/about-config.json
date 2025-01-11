@@ -1,0 +1,39 @@
+{
+    "skills": [
+        {
+            "title": "Programming",
+            "tools": [
+                "Java",
+                "C#",
+                "TypeScript",
+                "JavaScript",
+                "Dart",
+                "Python",
+                "C",
+                "NoSQL",
+                "SQL",
+                "Shell"
+            ]
+        },
+        {
+            "title": "Web-Technolgies",
+            "tools": ["React", "Angular", "NodeJS", "HTML/CSS", "OAuth", "NextAuth", "i18n"]
+        },
+        {
+            "title": "Database-Technologies",
+            "tools": ["MongoDB", "PostgreSQL", "Supabase", "Pocketbase", "Firebase", "Amplify"]
+        },
+        {
+            "title": "Frameworks & Libraries",
+            "tools": ["Java Spring Boot", "NextJS", "JUnit 5", "Cypress E2E"]
+        },
+        {
+            "title": "Operating Systems & Tools",
+            "tools": ["Windows", "MacOS", "Linux", "Git", "Agile (Scrum)", "MS Office", "Jira", "Confluence", "WordPress"]
+        },
+        {
+            "title": "DevOps and Cloud-Technologies",
+            "tools": ["Gitlab CICD", "Jenkins CI", "Docker", "Kubernetes", "AWS", "Google Cloud"]
+        }
+    ]
+}

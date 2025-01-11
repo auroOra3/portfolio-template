@@ -1,0 +1,27 @@
+{
+    "name": "Maria Kazim",
+    "logoType": {
+        "mobile": "MK",
+        "desktop": "Maria Kazim"
+    },
+    "mainPicture": "/assets/landing/image-me.webp",
+    "mainPictureJPG": "/assets/landing/image-me.jpeg",
+    "cssVarPrefix": "mk",
+    "email": "dev.aurora3@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/maria-k-5b84aa329",
+    "github": "https://github.com/auroOra3",
+    "socials": [
+        {
+            "type": "linkedin",
+            "link": "https://www.linkedin.com/in/maria-k-5b84aa329"
+        },
+        {
+            "type": "github",
+            "link": "https://github.com/auroOra3"
+        },
+        {
+            "type": "mail",
+            "link": "mailto:dev.aurora3@gmail.com"
+        }
+    ]
+}
