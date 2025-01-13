@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.8dc493ff.css",
-    "main.js": "/static/js/main.b757e962.js",
-    "static/js/734.5199a7cf.chunk.js": "/static/js/734.5199a7cf.chunk.js",
-    "static/js/914.29adb453.chunk.js": "/static/js/914.29adb453.chunk.js",
+    "main.js": "/static/js/main.69ff3685.js",
+    "static/js/734.1b6caa73.chunk.js": "/static/js/734.1b6caa73.chunk.js",
+    "static/js/914.d0fe18fd.chunk.js": "/static/js/914.d0fe18fd.chunk.js",
     "static/js/384.53e121ca.chunk.js": "/static/js/384.53e121ca.chunk.js",
-    "static/js/823.7db9c63d.chunk.js": "/static/js/823.7db9c63d.chunk.js",
+    "static/js/823.6d76b513.chunk.js": "/static/js/823.6d76b513.chunk.js",
     "static/js/875.e40b16e2.chunk.js": "/static/js/875.e40b16e2.chunk.js",
     "static/js/795.ba89182e.chunk.js": "/static/js/795.ba89182e.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
@@ -19,11 +19,11 @@
     "static/media/about.md": "/static/media/about.9dd24bacee3f839d84f4.md",
     "static/media/landing.md": "/static/media/landing.d0f7e319511f8fc0ef82.md",
     "main.8dc493ff.css.map": "/static/css/main.8dc493ff.css.map",
-    "main.b757e962.js.map": "/static/js/main.b757e962.js.map",
-    "734.5199a7cf.chunk.js.map": "/static/js/734.5199a7cf.chunk.js.map",
-    "914.29adb453.chunk.js.map": "/static/js/914.29adb453.chunk.js.map",
+    "main.69ff3685.js.map": "/static/js/main.69ff3685.js.map",
+    "734.1b6caa73.chunk.js.map": "/static/js/734.1b6caa73.chunk.js.map",
+    "914.d0fe18fd.chunk.js.map": "/static/js/914.d0fe18fd.chunk.js.map",
     "384.53e121ca.chunk.js.map": "/static/js/384.53e121ca.chunk.js.map",
-    "823.7db9c63d.chunk.js.map": "/static/js/823.7db9c63d.chunk.js.map",
+    "823.6d76b513.chunk.js.map": "/static/js/823.6d76b513.chunk.js.map",
     "875.e40b16e2.chunk.js.map": "/static/js/875.e40b16e2.chunk.js.map",
     "795.ba89182e.chunk.js.map": "/static/js/795.ba89182e.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map",
@@ -35,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.8dc493ff.css",
-    "static/js/main.b757e962.js"
+    "static/js/main.69ff3685.js"
   ]
 }
