@@ -24,20 +24,18 @@ export const Socials: FC<Props> = ({ resume = true, exclude, delay = 800 }) => {
             {configs.common.socials.map((social, idx) =>
                 !exclude?.includes(social.type) && (
                     <Tooltip key={social.type} label={social.type} textTransform="capitalize">
-                    <Button
-                        p="0"
-                        aria-label={`${social.type}-button`}
-                        as={IconButton}
-                        variant="icon"
-                        data-aos="fade"
-                        data-aos-delay={idx * 100 + delay}
-                        fontSize={social.type === "mail" ? "24pt" : "20pt"}
-                        icon={LinksToIconMapper[social.type]}
-                    >
-                        <Link href={social.link} isExternal>
-                            {LinksToIconMapper[social.type]}
-                        </Link>
-                    </Button>
+                    <Link href={social.link} isExternal>
+                        <Button
+                            p="0"
+                            aria-label={`${social.type}-button`}
+                            as={IconButton}
+                            variant="icon"
+                            data-aos="fade"
+                            data-aos-delay={idx * 100 + delay}
+                            fontSize={social.type === "mail" ? "24pt" : "20pt"}
+                            icon={LinksToIconMapper[social.type] as JSX.Element}
+                        />
+                    </Link>
                     </Tooltip>
                 )
             )}
