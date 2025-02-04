@@ -4,16 +4,16 @@ import { ColorHues } from "@chakra-ui/react";
  * Generated via https://lyft-colorbox.herokuapp.com/
  */
 export const PrimaryColors: ColorHues = {
-    50: "#FCFFF9",
-    100: "#D3E5C5",
-    200: "#ACCE97",
-    300: "#8BB571",
-    400: "#6F9C52",
-    500: "#57833D",
-    600: "#436B2C",
-    700: "#32521E",
-    800: "#203813",
-    900: "#12200B",
+    50: "#FFEFC7",
+    100: "#FFCF58",
+    200: "#FFD774",
+    300: "#FFDF90",
+    400: "#FFE7AB",
+    500: "#FFC83D",
+    600: "#FFF7E3",
+    700: "#FFD97A",
+    800: "#FFD365",
+    900: "#FFCD51",
 };
 
 export const PrimaryDarkColors: ColorHues = {

@@ -10,6 +10,26 @@
         "jpg": "/assets/featured-projects/von-hier-fuer-dich.png"
     },
     {
+        "id": "featured-project-pocknote",
+        "title": "PockNote",
+        "demo": "",
+        "github": "",
+        "tags": ["NextJS", "React", "Java", "Spring Boot", "Docker", "Clerk", "Microservices", "TailwindCSS", "Gitlab CI/CD"],
+        "description": "PockNote is a lightweight note-taking app I developed to meet my personal needs and preferences after a long search for the perfect solution. It features a minimalistic and distraction-free design, cross-device synchronization, and availability.</br>The app's frontend is built with Next.js, while the backend uses a Java Spring Boot Microservice architecture, both hosted in Docker containers. I also integrated Clerk for secure and efficient authentication. The hosted version is part of my daily workflow, and the source code will be published soon.",
+        "image": "/assets/featured-projects/pocknote.png",
+        "jpg": "/assets/featured-projects/pocknote.png"
+    },       
+    {
+        "id": "featured-project-requirement-classifier",
+        "title": "Requirement Classifier",
+        "demo": "",
+        "github": "",
+        "tags": ["Python", "PyTorch", "Word2Vec", "scikit-learn", "NLP", "FastAPI", "Bootstrap 5", "Docker", "Django", "Machine Learning", "SQLite", "Gitlab CI/CD"],
+        "description": "As part of my paper <a href='/assets/papers/instabilitaet-nfa.pdf' target='_blank' rel='noopener noreferrer' class='highlighted-link'>Instabilität und Ungewissheit nicht-funktionaler Anforderungen</a>, I developed an AI-powered classification system to analyze software requirements.  The model differentiates between functional and non-functional requirements and assigns a probability score for key categories. The system consists of a neural network-based NLP model, which communicates with a Django web interface via FastAPI. The project was graded with a score of 95%.",
+        "image": "/assets/featured-projects/requirement-classifier.png",
+        "jpg": "/assets/featured-projects/requirement-classifier.png"
+    },
+    {
         "id": "featured-project-cargonat", 
         "title": "Cargonaut",
         "demo": "",

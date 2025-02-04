@@ -12,3 +12,15 @@
     border-radius: 0px;
     box-shadow: inset 0px 0px 0px 0px #f0f0f0;
 }
+
+.highlighted-link {
+    color: #FFC83D;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: #FFAA00;
+        text-decoration: underline;
+    }
+}
+

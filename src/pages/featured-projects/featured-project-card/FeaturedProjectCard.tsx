@@ -18,17 +18,17 @@ interface Props {
     jpg: string;
 }
 
-const ImagePositionLayoutMapper: { [key in ImagePosition]: "row" | "row-reverse" } = {
+const ImagePositionLayoutMapper: Record<ImagePosition, "row" | "row-reverse"> = {
     [ImagePosition.Right]: "row",
     [ImagePosition.Left]: "row-reverse",
 };
 
-const ImagePositionPaddingRightMapper: { [key in ImagePosition]: string } = {
+const ImagePositionPaddingRightMapper: Record<ImagePosition, string> = {
     [ImagePosition.Right]: "8",
     [ImagePosition.Left]: "0",
 };
 
-const ImagePositionPaddingLeftMapper: { [key in ImagePosition]: string } = {
+const ImagePositionPaddingLeftMapper: Record<ImagePosition, string> = {
     [ImagePosition.Right]: "0",
     [ImagePosition.Left]: "8",
 };
@@ -85,10 +85,8 @@ export const FeaturedProjectCard: FC<Props> = ({
                         data-aos-delay="200"
                         borderRadius="xl"
                         pb="2"
-                    >
-                        {description}
-                    </Text>
-
+                        dangerouslySetInnerHTML={{ __html: description }}
+                    />
                     <Tags tags={tags} id={id} />
                 </Box>
 

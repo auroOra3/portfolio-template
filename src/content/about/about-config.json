@@ -17,23 +17,23 @@
         },
         {
             "title": "Web-Technolgies",
-            "tools": ["React", "Angular", "NodeJS", "HTML/CSS", "OAuth", "NextAuth", "i18n"]
+            "tools": ["React", "Angular", "NodeJS", "Deno", "HTML/CSS", "OAuth", "NextAuth", "i18n", "Bootstrap", "TailwindCSS"]
         },
         {
             "title": "Database-Technologies",
-            "tools": ["MongoDB", "PostgreSQL", "Supabase", "Pocketbase", "Firebase", "Amplify"]
+            "tools": ["MongoDB", "PostgreSQL", "SQLite", "Supabase", "Pocketbase", "Firebase", "Amplify"]
         },
         {
             "title": "Frameworks & Libraries",
-            "tools": ["Java Spring Boot", "NextJS", "JUnit 5", "Cypress E2E"]
+            "tools": ["Java Spring Boot", "Maven", "Flutter", "NextJS", "JUnit 5", "Cypress E2E", "Django", "PyTorch"]
         },
         {
             "title": "Operating Systems & Tools",
-            "tools": ["Windows", "MacOS", "Linux", "Git", "Agile (Scrum)", "MS Office", "Jira", "Confluence", "WordPress"]
+            "tools": ["Windows", "MacOS", "Linux", "Git", "VSCode", "IntelliJ", "Agile (Scrum)", "MS Office", "Jira", "Confluence", "WordPress"]
         },
         {
             "title": "DevOps and Cloud-Technologies",
-            "tools": ["Gitlab CICD", "Jenkins CI", "Docker", "Kubernetes", "AWS", "Google Cloud"]
+            "tools": ["Gitlab CICD", "Jenkins CI", "Docker", "Kubernetes", "AWS", "Google Cloud", "Rancher", "Terraform"]
         }
     ]
 }
