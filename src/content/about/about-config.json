@@ -2,38 +2,51 @@
     "skills": [
         {
             "title": "Programming",
-            "tools": [
-                "Java",
-                "C#",
-                "TypeScript",
-                "JavaScript",
-                "Dart",
-                "Python",
-                "C",
-                "NoSQL",
-                "SQL",
-                "Shell"
-            ]
+            "tools": ["Java", "C#", "TypeScript", "JavaScript", "Dart", "Python", "C", "Shell"]
         },
         {
-            "title": "Web-Technolgies",
-            "tools": ["React", "Angular", "NodeJS", "Deno", "HTML/CSS", "OAuth", "NextAuth", "i18n", "Bootstrap", "TailwindCSS"]
+            "title": "Backend-Technologies",
+            "tools": ["Java Spring Boot", "Next.js", "Django", "Express", "SocketIO", "NodeJS", "Deno"]
+        },
+        {
+            "title": "Frontend-Technologies",
+            "tools": ["React", "Vite", "Angular", "HTML/CSS", "Bootstrap 5", "TailwindCSS", "MaterialUI"]
+        },
+        {
+            "title": "Mobile-Technologies",
+            "tools": ["Flutter"]
         },
         {
             "title": "Database-Technologies",
-            "tools": ["MongoDB", "PostgreSQL", "SQLite", "Supabase", "Pocketbase", "Firebase", "Amplify"]
+            "tools": ["MongoDB", "PostgreSQL", "SQLite", "Supabase", "Pocketbase", "Firebase", "Amplify", "NoSQL", "SQL"]
         },
         {
-            "title": "Frameworks & Libraries",
-            "tools": ["Java Spring Boot", "Maven", "Flutter", "NextJS", "JUnit 5", "Cypress E2E", "Django", "PyTorch"]
+            "title": "DevOps and CI/CD",
+            "tools": ["Gitlab CI/CD", "Jenkins CI", "Docker", "Kubernetes", "Rancher", "Terraform", "Grafana", "Prometheus"]
         },
         {
-            "title": "Operating Systems & Tools",
-            "tools": ["Windows", "MacOS", "Linux", "Git", "VSCode", "IntelliJ", "Agile (Scrum)", "MS Office", "Jira", "Confluence", "WordPress"]
+            "title": "Cloud-Technologies",
+            "tools": ["AWS", "Google Cloud", "Helm"]
         },
         {
-            "title": "DevOps and Cloud-Technologies",
-            "tools": ["Gitlab CICD", "Jenkins CI", "Docker", "Kubernetes", "AWS", "Google Cloud", "Rancher", "Terraform"]
+            "title": "Build-Tools",
+            "tools": ["Maven", "npm", "pnpm", "yarn", "pip"]
+        },
+        {
+            "title": "Testing and Quality Assurance",
+            "tools": ["JUnit", "Cypress", "SonarQube", "ESLint"]
+        },
+        {
+            "title": "AI & Data Analysis",
+            "tools": ["PyTorch", "Scikit-Learn", "NumPy", "Pandas", "TensorFlow"]
+        },
+        {
+            "title": "Operating Systems",
+            "tools": ["Windows", "macOS", "Linux"]
+        },
+        {
+            "title": "Project-Management and Collaboration-Tools",
+            "tools": ["Git", "Trello", "Jira", "Confluence", "WordPress"]
         }
     ]
 }
