@@ -1,52 +1,89 @@
 {
-    "skills": [
-        {
-            "title": "Programming",
-            "tools": ["Java", "C#", "TypeScript", "JavaScript", "Dart", "Python", "C", "Shell"]
-        },
-        {
-            "title": "Backend-Technologies",
-            "tools": ["Java Spring Boot", "Next.js", "Django", "Express", "SocketIO", "NodeJS", "Deno"]
-        },
-        {
-            "title": "Frontend-Technologies",
-            "tools": ["React", "Vite", "Angular", "HTML/CSS", "Bootstrap 5", "TailwindCSS", "MaterialUI"]
-        },
-        {
-            "title": "Mobile-Technologies",
-            "tools": ["Flutter"]
-        },
-        {
-            "title": "Database-Technologies",
-            "tools": ["MongoDB", "PostgreSQL", "SQLite", "Supabase", "Pocketbase", "Firebase", "Amplify", "NoSQL", "SQL"]
-        },
-        {
-            "title": "DevOps and CI/CD",
-            "tools": ["Gitlab CI/CD", "Jenkins CI", "Docker", "Kubernetes", "Rancher", "Terraform", "Grafana", "Prometheus"]
-        },
-        {
-            "title": "Cloud-Technologies",
-            "tools": ["AWS", "Google Cloud", "Helm"]
-        },
-        {
-            "title": "Build-Tools",
-            "tools": ["Maven", "npm", "pnpm", "yarn", "pip"]
-        },
-        {
-            "title": "Testing and Quality Assurance",
-            "tools": ["JUnit", "Cypress", "SonarQube", "ESLint"]
-        },
-        {
-            "title": "AI & Data Analysis",
-            "tools": ["PyTorch", "Scikit-Learn", "NumPy", "Pandas", "TensorFlow"]
-        },
-        {
-            "title": "Operating Systems",
-            "tools": ["Windows", "macOS", "Linux"]
-        },
-        {
-            "title": "Project-Management and Collaboration-Tools",
-            "tools": ["Git", "Trello", "Jira", "Confluence", "WordPress"]
-        }
-    ]
+  "skills": [
+    {
+      "title": "Programming Languages",
+      "tools": [
+        { "name": "Java", "iconClass": "devicon-java-plain colored" },
+        { "name": "TypeScript", "iconClass": "devicon-typescript-plain colored" },
+        { "name": "Dart", "iconClass": "devicon-dart-plain colored" },
+        { "name": "Python", "iconClass": "devicon-python-plain colored" },
+        { "name": "C", "iconClass": "devicon-c-plain colored" }
+      ]
+    },
+    {
+      "title": "Backend Technologies",
+      "tools": [
+        { "name": "Spring Boot", "iconClass": "devicon-spring-plain colored" },
+        { "name": "Next.js", "iconClass": "devicon-nextjs-line colored" },
+        { "name": "Express", "iconClass": "devicon-express-original" },
+        { "name": "Node.js", "iconClass": "devicon-nodejs-plain colored" },
+        { "name": "Deno", "iconClass": "devicon-denojs-plain colored" }
+      ]
+    },
+    {
+      "title": "Frontend Technologies",
+      "tools": [
+        { "name": "HTML5", "iconClass": "devicon-html5-plain colored" },
+        { "name": "CSS3", "iconClass": "devicon-css3-plain colored" },
+        { "name": "React", "iconClass": "devicon-react-original colored" },
+        { "name": "Angular", "iconClass": "devicon-angularjs-plain colored" },
+        { "name": "Tailwind CSS", "iconClass": "devicon-tailwindcss-plain colored" },
+        { "name": "Bootstrap", "iconClass": "devicon-bootstrap-plain colored" }
+      ]
+    },
+    {
+      "title": "Mobile Development",
+      "tools": [
+        { "name": "Flutter", "iconClass": "devicon-flutter-plain colored" }
+      ]
+    },
+    {
+      "title": "Databases",
+      "tools": [
+        { "name": "PostgreSQL", "iconClass": "devicon-postgresql-plain colored" },
+        { "name": "Firebase", "iconClass": "devicon-firebase-plain colored" },
+        { "name": "Supabase", "iconClass": "devicon-supabase-plain colored" },
+        { "name": "SQLLite", "iconClass": "devicon-sqlite-plain colored" }
+      ]
+    },
+    {
+      "title": "DevOps & CI/CD",
+      "tools": [
+        { "name": "GitLab", "iconClass": "devicon-gitlab-plain colored" },
+        { "name": "Docker", "iconClass": "devicon-docker-plain colored" }
+      ]
+    },
+    {
+      "title": "Testing & Quality Assurance",
+      "tools": [
+        { "name": "Cypress", "iconClass": "devicon-cypressio-original" },
+        { "name": "Vitest", "iconClass": "devicon-vitest-plain colored" },
+        { "name": "JUnit", "iconClass": "devicon-junit-plain colored" },
+        { "name": "SonarQube", "iconClass": "devicon-sonarqube-plain colored" },
+        { "name": "ESLint", "iconClass": "devicon-eslint-plain colored" }
+      ]
+    },
+    {
+      "title": "IDEs",
+      "tools": [
+        { "name": "Visual Studio Code", "iconClass": "devicon-vscode-plain colored" },
+        { "name": "IntelliJ", "iconClass": "devicon-intellij-plain colored" }
+      ]
+    },
+    {
+      "title": "Operating Systems",
+      "tools": [
+        { "name": "Linux", "iconClass": "devicon-linux-plain colored" },
+        { "name": "Windows", "iconClass": "devicon-windows8-original colored" }
+      ]
+    },
+    {
+      "title": "Project Management & Collaboration",
+      "tools": [
+        { "name": "Git", "iconClass": "devicon-git-original colored" },
+        { "name": "Jira", "iconClass": "devicon-jira-plain colored" },
+        { "name": "Confluence", "iconClass": "devicon-confluence-plain colored" }
+      ]
+    }
+  ]
 }

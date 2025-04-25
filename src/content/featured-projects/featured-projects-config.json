@@ -4,7 +4,7 @@
         "title": "Von hier für dich",
         "demo": "",
         "github": "",
-        "tags": ["Flutter", "Dart", "Supabase", "Firebase", "Amplify", "OpenStreetMap", "Gitlab CI/CD", "Flutter Test"],
+        "tags": ["Flutter", "Dart", "Supabase", "Firebase", "OpenStreetMap", "Gitlab CI/CD", "Flutter Test"],
         "description": "As part of my bachelor thesis, I developed a Flutter app enabling local retailers to sell their products online, bridging the gap between traditional and digital commerce. Von hier für dich explores the use of Backend-as-a-Service (BaaS) and cloud technologies to fast-track app development.",
         "image": "/assets/featured-projects/von-hier-fuer-dich.jpg",
         "jpg": "/assets/featured-projects/von-hier-fuer-dich.jpg"
@@ -25,7 +25,7 @@
         "demo": "",
         "github": "",
         "tags": ["Python", "PyTorch", "Word2Vec", "scikit-learn", "NLP", "FastAPI", "Bootstrap 5", "Docker", "Django", "Machine Learning", "SQLite", "Gitlab CI/CD"],
-        "description": "As part of my paper <a href='/assets/papers/instabilitaet-nfa.pdf' target='_blank' rel='noopener noreferrer' class='highlighted-link'>Instabilität und Ungewissheit nicht-funktionaler Anforderungen</a>, I developed an AI-powered classification system to analyze software requirements.  The model differentiates between functional and non-functional requirements and assigns a probability score for key categories. The system consists of a neural network-based NLP model, which communicates with a Django web interface via FastAPI. The project was graded with a score of 95%.",
+        "description": "As part of my paper <a href='/assets/papers/instabilitaet-nfa.pdf' target='_blank' rel='noopener noreferrer' class='highlighted-link'>Instabilität und Ungewissheit nicht-funktionaler Anforderungen</a>, I developed an AI-powered classification system to analyze software requirements. The model differentiates between functional and non-functional requirements and assigns a probability score for key categories. The system consists of a neural network-based NLP model, which communicates with a Django web interface via FastAPI. The paper was graded with a score of 95%.",
         "image": "/assets/featured-projects/requirement-classifier.png",
         "jpg": "/assets/featured-projects/requirement-classifier.png"
     },
