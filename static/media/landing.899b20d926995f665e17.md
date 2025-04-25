@@ -1,0 +1,1 @@
+Welcome to my corner of the web ✌️ I’m glad you’re here and interested in learning a bit more about me. I recently graduated with a Bachelor degree in Computer Science and I'm passionate about **Software Development**, **App Development** and **Artificial Intelligence**.
