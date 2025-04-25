@@ -5,7 +5,7 @@ import { SectionTitle } from "pages/about/common/title/Title";
 interface Props {
     expanded: number[];
     idx: number;
-    onChange: (expanded: any) => void;
+    onChange: (expanded: number[]) => void;
     title: string;
     subTitle: string;
     date: string;
@@ -26,7 +26,7 @@ export const Expandable: FC<Props> = ({ expanded, id, idx, title, subTitle, date
         const element = document.getElementById(firstPointId);
 
         if (element) {
-            if (element.scrollWidth >= element.parentElement?.scrollWidth!) {
+            if (element.parentElement && element.scrollWidth >= element.parentElement.scrollWidth) {
                 setIsOverflowing(true);
             } else {
                 setIsOverflowing(false);

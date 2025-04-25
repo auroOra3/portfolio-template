@@ -27,7 +27,7 @@ interface Props extends StyleProps {
 
 export const MenuDrawer: FC<Props> = ({ onSectionClick, currentPage, ...props }) => {
     const { isOpen, onOpen, onClose } = useDisclosure();
-    const btnRef = useRef<any>(null);
+    const btnRef = useRef<HTMLButtonElement | null>(null);
     const navItemColor = useColorModeValue("gray.800", "white");
 
     return (
@@ -43,7 +43,7 @@ export const MenuDrawer: FC<Props> = ({ onSectionClick, currentPage, ...props })
                 icon={<MenuIcon />}
                 px="0"
             />
-            <Drawer isOpen={isOpen} placement="right" onClose={onClose} autoFocus={false}>
+            <Drawer isOpen={isOpen} placement="right" onClose={onClose}>
                 <DrawerOverlay />
                 <DrawerContent>
                     <DrawerHeader px="4">

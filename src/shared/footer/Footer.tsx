@@ -36,8 +36,7 @@ export const Footer: FC = () => {
                 color="gray.500"
                 justifyContent={{ base: "center", md: "space-between" }}
                 direction={{ base: "column", md: "row" }}
-            >
-            </Flex>
+            ></Flex>
         </>
     );
 };

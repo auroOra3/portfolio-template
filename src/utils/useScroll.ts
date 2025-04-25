@@ -14,7 +14,7 @@ export const useScroll = () => {
     const [page, setPage] = useState<string>("");
 
     const scrollHandler = () => {
-        const documentTop = document.scrollingElement?.scrollTop!;
+        const documentTop = document.scrollingElement?.scrollTop ?? 0;
         const pages = pageIds.map((page) => document.getElementById(page));
         let newPage = "";
 
@@ -40,7 +40,7 @@ export const useScroll = () => {
         document.addEventListener("scroll", scrollHandler);
 
         return () => {
-            document.removeEventListener("scroll", () => {});
+            document.removeEventListener("scroll", scrollHandler);
         };
     }, []);
 

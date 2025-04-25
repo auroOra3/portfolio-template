@@ -33,16 +33,7 @@ const ImagePositionPaddingLeftMapper: Record<ImagePosition, string> = {
     [ImagePosition.Left]: "8",
 };
 
-export const FeaturedProjectCard: FC<Props> = ({
-    id,
-    title,
-    github,
-    tags,
-    description,
-    image,
-    imagePosition,
-    jpg,
-}) => {
+export const FeaturedProjectCard: FC<Props> = ({ id, title, github, tags, description, image, imagePosition, jpg }) => {
     const layoutDirection = ImagePositionLayoutMapper[imagePosition];
     const paddingRight = ImagePositionPaddingRightMapper[imagePosition];
     const paddingLeft = ImagePositionPaddingLeftMapper[imagePosition];
@@ -51,7 +42,7 @@ export const FeaturedProjectCard: FC<Props> = ({
         <Flex
             justifyContent="space-between"
             id="featured-project-card"
-            py={{ base: "12", md: "12", lg: '28' }}
+            py={{ base: "12", md: "12", lg: "28" }}
             direction={{ base: "column-reverse", lg: layoutDirection }}
         >
             <Flex

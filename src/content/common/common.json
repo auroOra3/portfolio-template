@@ -4,8 +4,8 @@
         "mobile": "MK",
         "desktop": "Maria Kazim"
     },
-    "mainPicture": "/assets/landing/image-me.webp",
-    "mainPictureJPG": "/assets/landing/image-me.jpeg",
+    "mainPicture": "/assets/landing/image-cat.webp",
+    "mainPictureJPG": "/assets/landing/image-cat.jpg",
     "cssVarPrefix": "mk",
     "email": "dev.aurora3@gmail.com",
     "linkedin": "https://www.linkedin.com/in/maria-k-5b84aa329",

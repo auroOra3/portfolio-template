@@ -9,9 +9,6 @@ interface GitHubButtonProps {
     github?: string;
 }
 
-interface Props extends GitHubButtonProps {}
-
-
 export const GitHubButton: FC<GitHubButtonProps> = ({ github }) => {
     const isButton = useBreakpointValue({ base: false, lg: true }) ?? false;
 
@@ -31,10 +28,10 @@ export const GitHubButton: FC<GitHubButtonProps> = ({ github }) => {
     ) : null;
 };
 
-export const ProjectCardFooter: FC<Props> = ({github }) => {
+export const ProjectCardFooter: FC<GitHubButtonProps> = ({ github }) => {
     return (
         <Flex justifyContent="flex-start" alignItems="center" pt="8">
-                <GitHubButton github={github} />
+            <GitHubButton github={github} />
         </Flex>
     );
 };
