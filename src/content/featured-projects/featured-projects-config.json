@@ -5,7 +5,7 @@
         "demo": "",
         "github": "",
         "tags": ["Flutter", "Dart", "Supabase", "Firebase", "OpenStreetMap", "Gitlab CI/CD", "Flutter Test"],
-        "description": "As part of my bachelor thesis, I developed a Flutter app enabling local retailers to sell their products online, bridging the gap between traditional and digital commerce. Von hier für dich explores the use of Backend-as-a-Service (BaaS) and cloud technologies to fast-track app development.",
+        "description": "As part of my bachelor thesis, I developed a Flutter app enabling local retailers to sell their products online, bridging the gap between traditional and digital commerce. Von hier für dich explores the use of Backend-as-a-Service (BaaS) and cloud technologies to fast-track app development. The project and the thesis were both graded with 100%.",
         "image": "/assets/featured-projects/von-hier-fuer-dich.jpg",
         "jpg": "/assets/featured-projects/von-hier-fuer-dich.jpg"
     },
