@@ -48,7 +48,10 @@
             "title": "DevOps & CI/CD",
             "tools": [
                 { "name": "GitLab", "iconClass": "devicon-gitlab-plain colored" },
+                { "name": "GitHub Actions", "iconClass": "devicon-github-actions-plain colored" },
+                { "name": "Jenkins", "iconClass": "devicon-jenkins-original colored" },
                 { "name": "Docker", "iconClass": "devicon-docker-plain colored" }
+
             ]
         },
         {

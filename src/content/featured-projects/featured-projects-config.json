@@ -48,7 +48,7 @@
             "SQLite",
             "Gitlab CI/CD"
         ],
-        "description": "As part of my paper <a href='/assets/papers/instabilitaet-nfa.pdf' target='_blank' rel='noopener noreferrer' class='highlighted-link'>Instabilität und Ungewissheit nicht-funktionaler Anforderungen</a>, I developed an AI-powered classification system to analyze software requirements. The model differentiates between functional and non-functional requirements and assigns a probability score for key categories. The system consists of a neural network-based NLP model, which communicates with a Django web interface via FastAPI. The paper was graded with a score of 95%.",
+        "description": "As part of my paper <a href='/assets/papers/instabilitaet-nfa.pdf' target='_blank' rel='noopener noreferrer' class='highlighted-link'>Instabilität und Ungewissheit nicht-funktionaler Anforderungen</a>, I developed an AI-powered classification system to analyze software requirements. The model differentiates between functional and non-functional requirements and assigns a probability score for key categories. The system consists of a neural network-based NLP model, which communicates with a Django web interface via FastAPI. The project was graded with a score of 95%.",
         "image": "/assets/featured-projects/requirement-classifier.png",
         "jpg": "/assets/featured-projects/requirement-classifier.png"
     },
